@@ -191,7 +191,7 @@ class Ui_Form(object):
         self.lineEdit.setPlaceholderText("")            
         P = self.comboBox.currentText()
         mp = self.comboBox_2.currentText()
-        yol = r"C:\Users\ESAD\Desktop\müzmüz"
+        yol = "."
         link = YouTube(self.lineEdit.text())
         
         if mp == "Ses":
